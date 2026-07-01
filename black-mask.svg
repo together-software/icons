@@ -1,15 +1,13 @@
 <svg width="512" height="512" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="icon-clip">
+      <rect width="42" height="42" rx="9"/>
+    </clipPath>
+  </defs>
   <rect width="42" height="42" rx="9" fill="#0C0E0C"/>
-  <ellipse cx="21" cy="21" rx="11" ry="14" stroke="#7A5ADE" stroke-width="1.1" fill="none" stroke-opacity="0.7"/>
-  <path d="M14 15.5 Q17 13.5 19.5 15" stroke="#7A5ADE" stroke-width="1.1" stroke-linecap="round" fill="none"/>
-  <path d="M22.5 15 Q25 13.5 28 15.5" stroke="#7A5ADE" stroke-width="1.1" stroke-linecap="round" fill="none"/>
-  <ellipse cx="17" cy="18" rx="2.2" ry="1.6" stroke="#7A5ADE" stroke-width="0.9" fill="none"/>
-  <ellipse cx="25" cy="18" rx="2.2" ry="1.6" stroke="#7A5ADE" stroke-width="0.9" fill="none"/>
-  <circle cx="17" cy="18" r="0.9" fill="#7A5ADE" fill-opacity="0.8"/>
-  <circle cx="25" cy="18" r="0.9" fill="#7A5ADE" fill-opacity="0.8"/>
-  <path d="M21 21 L19 25.5 Q21 27 23 25.5 L21 21" stroke="#7A5ADE" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke-opacity="0.8"/>
-  <path d="M16.5 28.5 Q21 32 25.5 28.5" stroke="#7A5ADE" stroke-width="1.1" stroke-linecap="round" fill="none" stroke-opacity="0.8"/>
-  <!-- Letterbox bars — equal 10pt top and bottom -->
-  <rect x="0" y="0" width="42" height="10" fill="#0C0E0C"/>
-  <rect x="0" y="32" width="42" height="10" fill="#0C0E0C"/>
+  <g clip-path="url(#icon-clip)">
+    <!-- 2.39:1 letterbox bars -->
+    <rect x="0" y="0" width="42" height="12.2" fill="#7A5ADE"/>
+    <rect x="0" y="29.8" width="42" height="12.2" fill="#7A5ADE"/>
+  </g>
 </svg>
